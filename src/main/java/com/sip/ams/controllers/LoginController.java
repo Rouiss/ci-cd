@@ -29,7 +29,7 @@ public class LoginController {
         return "login";
 
     }
-/*
+/* test
     @PostMapping("")
     public String loginSubmit(Model model, @RequestParam String email, @RequestParam String password) {
         User user = userRepository.findByEmail(email);
