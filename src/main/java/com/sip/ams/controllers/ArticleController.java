@@ -67,7 +67,7 @@ public class ArticleController {
 		}
 
 		
-		// fin upload
+		// fin upload end
 		articleService.saveArticle(article,p,files);
 		return "redirect:list";
 
